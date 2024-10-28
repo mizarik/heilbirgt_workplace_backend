@@ -1,0 +1,6 @@
+@heilbrigt_workplace_backend_v01_HostAddress = http://localhost:5270
+
+GET {{heilbrigt_workplace_backend_v01_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\heilbrigt_workplace_backend_v01.props" />
+</Project>
