@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("heilbrigt_workplace_backend_v01")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+df17565f838f9bb63656b01ce3d36a8331bac5d9")]
 [assembly: System.Reflection.AssemblyProductAttribute("heilbrigt_workplace_backend_v01")]
 [assembly: System.Reflection.AssemblyTitleAttribute("heilbrigt_workplace_backend_v01")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

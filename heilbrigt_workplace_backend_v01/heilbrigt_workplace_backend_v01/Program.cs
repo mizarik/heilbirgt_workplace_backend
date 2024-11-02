@@ -1,4 +1,6 @@
 using heilbrigt_workplace_backend_v01.EntityFramework.Context;
+using heilbrigt_workplace_backend_v01.EntityFramework.Manager;
+using Microsoft.AspNetCore.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,7 +22,9 @@ builder.Services.AddSwaggerGen();
 
 #region EntityFramework
 // Context
-builder.Services.AddDbContext<HeilbrigtContext>(); 
+builder.Services.AddDbContext<HeilbrigtContext>();
+
+builder.Services.AddTransient<IUserManager, UserManager>();
 
 
 #endregion EntityFramework

@@ -7,28 +7,33 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace heilbrigt_workplace_backend_v01.Migrations
 {
     /// <inheritdoc />
-    public partial class FirstCall : Migration
+    public partial class user1 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.AlterDatabase()
+                .Annotation("MySql:CharSet", "utf8mb4");
+
             migrationBuilder.CreateTable(
                 name: "User",
                 columns: table => new
                 {
                     UserId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
-                    FirstName = table.Column<string>(type: "varchar(50)", maxLength: 50, nullable: false)
+                    userFirstName = table.Column<string>(type: "varchar(50)", maxLength: 50, nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
-                    LastName = table.Column<string>(type: "varchar(50)", maxLength: 50, nullable: false)
+                    userLastName = table.Column<string>(type: "varchar(50)", maxLength: 50, nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
-                    Mail = table.Column<string>(type: "varchar(125)", maxLength: 125, nullable: false)
+                    userMail = table.Column<string>(type: "varchar(125)", maxLength: 125, nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
-                    SignUpDate = table.Column<DateTime>(type: "datetime(6)", nullable: false),
-                    IsActiveated = table.Column<bool>(type: "tinyint(1)", nullable: false),
-                    PasswordHash = table.Column<string>(type: "varchar(350)", maxLength: 350, nullable: false)
+                    userInternalId = table.Column<string>(type: "varchar(17)", maxLength: 17, nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
-                    SessionId = table.Column<string>(type: "varchar(500)", maxLength: 500, nullable: false)
+                    userAddDate = table.Column<DateTime>(type: "datetime(6)", nullable: false),
+                    userIsActiveated = table.Column<bool>(type: "tinyint(1)", nullable: false),
+                    userPasswordHash = table.Column<string>(type: "varchar(350)", maxLength: 350, nullable: false)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
+                    userSessionId = table.Column<string>(type: "varchar(500)", maxLength: 500, nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4")
                 },
                 constraints: table =>

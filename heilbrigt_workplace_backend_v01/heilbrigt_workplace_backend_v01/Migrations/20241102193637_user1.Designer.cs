@@ -12,8 +12,8 @@ using heilbrigt_workplace_backend_v01.EntityFramework.Context;
 namespace heilbrigt_workplace_backend_v01.Migrations
 {
     [DbContext(typeof(HeilbrigtContext))]
-    [Migration("20241028120137_FirstCall")]
-    partial class FirstCall
+    [Migration("20241102193637_user1")]
+    partial class user1
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -33,36 +33,41 @@ namespace heilbrigt_workplace_backend_v01.Migrations
 
                     MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("UserId"));
 
-                    b.Property<string>("FirstName")
+                    b.Property<DateTime>("userAddDate")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<string>("userFirstName")
                         .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("varchar(50)");
 
-                    b.Property<bool>("IsActiveated")
+                    b.Property<string>("userInternalId")
+                        .IsRequired()
+                        .HasMaxLength(17)
+                        .HasColumnType("varchar(17)");
+
+                    b.Property<bool>("userIsActiveated")
                         .HasColumnType("tinyint(1)");
 
-                    b.Property<string>("LastName")
+                    b.Property<string>("userLastName")
                         .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("varchar(50)");
 
-                    b.Property<string>("Mail")
+                    b.Property<string>("userMail")
                         .IsRequired()
                         .HasMaxLength(125)
                         .HasColumnType("varchar(125)");
 
-                    b.Property<string>("PasswordHash")
+                    b.Property<string>("userPasswordHash")
                         .IsRequired()
                         .HasMaxLength(350)
                         .HasColumnType("varchar(350)");
 
-                    b.Property<string>("SessionId")
+                    b.Property<string>("userSessionId")
                         .IsRequired()
                         .HasMaxLength(500)
                         .HasColumnType("varchar(500)");
-
-                    b.Property<DateTime>("SignUpDate")
-                        .HasColumnType("datetime(6)");
 
                     b.HasKey("UserId");
 
