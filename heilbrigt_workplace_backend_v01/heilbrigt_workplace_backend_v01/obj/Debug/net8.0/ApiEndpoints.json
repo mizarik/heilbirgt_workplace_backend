@@ -1,0 +1,19 @@
+[
+  {
+    "ContainingType": "heilbrigt_workplace_backend_v01.Controllers.UserController",
+    "Method": "AddNewUser",
+    "RelativePath": "usersystem/adduser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userFullDto",
+        "Type": "heilbrigt_workplace_backend_v01.Dtos.UserSystem.UserFullDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "Adduser"
+  }
+]

@@ -2,6 +2,8 @@
 using heilbrigt_workplace_backend_v01.EntityFramework.Context;
 using heilbrigt_workplace_backend_v01.Services;
 using Microsoft.AspNetCore.Components.Forms;
+using Microsoft.AspNetCore.Http.HttpResults;
+using Microsoft.AspNetCore.Mvc;
 
 namespace heilbrigt_workplace_backend_v01.EntityFramework.Manager
 {
@@ -16,7 +18,6 @@ namespace heilbrigt_workplace_backend_v01.EntityFramework.Manager
 
         public RequestResponse AddNewUser(UserFullDto user)
         {
-
             //AddUser to Database
             var adduser = context.User.FirstOrDefault(editor => editor.userMail == user.email);
             if (adduser != default)
@@ -73,7 +74,7 @@ Diese Email dürfen Sie nicht weiterleiten, sowie die Daten nicht an Dritte weit
 
             };
 
-            MailData.MailSending(MailData);
+            //MailData.MailSending(MailData);
 
             context.Add(adduser);
             context.SaveChanges();

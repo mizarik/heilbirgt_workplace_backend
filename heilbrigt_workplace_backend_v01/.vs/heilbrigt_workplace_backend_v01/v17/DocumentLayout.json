@@ -7,24 +7,12 @@
       "RelativeMoniker": "D:0:0:{72761F51-E743-4675-B704-2AF15A5595B7}|heilbrigt_workplace_backend_v01\\heilbrigt_workplace_backend_v01.csproj|solutionrelative:heilbrigt_workplace_backend_v01\\entityframework\\manager\\iusermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{72761F51-E743-4675-B704-2AF15A5595B7}|heilbrigt_workplace_backend_v01\\heilbrigt_workplace_backend_v01.csproj|f:\\_projekte\\heilbrigt\\heilbirgt_workplace_backend\\heilbrigt_workplace_backend_v01\\heilbrigt_workplace_backend_v01\\services\\sendmail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72761F51-E743-4675-B704-2AF15A5595B7}|heilbrigt_workplace_backend_v01\\heilbrigt_workplace_backend_v01.csproj|solutionrelative:heilbrigt_workplace_backend_v01\\services\\sendmail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{72761F51-E743-4675-B704-2AF15A5595B7}|heilbrigt_workplace_backend_v01\\heilbrigt_workplace_backend_v01.csproj|f:\\_projekte\\heilbrigt\\heilbirgt_workplace_backend\\heilbrigt_workplace_backend_v01\\heilbrigt_workplace_backend_v01\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72761F51-E743-4675-B704-2AF15A5595B7}|heilbrigt_workplace_backend_v01\\heilbrigt_workplace_backend_v01.csproj|solutionrelative:heilbrigt_workplace_backend_v01\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{72761F51-E743-4675-B704-2AF15A5595B7}|heilbrigt_workplace_backend_v01\\heilbrigt_workplace_backend_v01.csproj|f:\\_projekte\\heilbrigt\\heilbirgt_workplace_backend\\heilbrigt_workplace_backend_v01\\heilbrigt_workplace_backend_v01\\entityframework\\models\\user\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{72761F51-E743-4675-B704-2AF15A5595B7}|heilbrigt_workplace_backend_v01\\heilbrigt_workplace_backend_v01.csproj|solutionrelative:heilbrigt_workplace_backend_v01\\entityframework\\models\\user\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72761F51-E743-4675-B704-2AF15A5595B7}|heilbrigt_workplace_backend_v01\\heilbrigt_workplace_backend_v01.csproj|f:\\_projekte\\heilbrigt\\heilbirgt_workplace_backend\\heilbrigt_workplace_backend_v01\\heilbrigt_workplace_backend_v01\\dtos\\usersystem\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72761F51-E743-4675-B704-2AF15A5595B7}|heilbrigt_workplace_backend_v01\\heilbrigt_workplace_backend_v01.csproj|solutionrelative:heilbrigt_workplace_backend_v01\\dtos\\usersystem\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72761F51-E743-4675-B704-2AF15A5595B7}|heilbrigt_workplace_backend_v01\\heilbrigt_workplace_backend_v01.csproj|f:\\_projekte\\heilbrigt\\heilbirgt_workplace_backend\\heilbrigt_workplace_backend_v01\\heilbrigt_workplace_backend_v01\\services\\randomkey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72761F51-E743-4675-B704-2AF15A5595B7}|heilbrigt_workplace_backend_v01\\heilbrigt_workplace_backend_v01.csproj|solutionrelative:heilbrigt_workplace_backend_v01\\services\\randomkey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72761F51-E743-4675-B704-2AF15A5595B7}|heilbrigt_workplace_backend_v01\\heilbrigt_workplace_backend_v01.csproj|f:\\_projekte\\heilbrigt\\heilbirgt_workplace_backend\\heilbrigt_workplace_backend_v01\\heilbrigt_workplace_backend_v01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72761F51-E743-4675-B704-2AF15A5595B7}|heilbrigt_workplace_backend_v01\\heilbrigt_workplace_backend_v01.csproj|solutionrelative:heilbrigt_workplace_backend_v01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 307,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,41 +30,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RandomKey.cs",
-              "DocumentMoniker": "F:\\_Projekte\\Heilbrigt\\heilbirgt_workplace_backend\\heilbrigt_workplace_backend_v01\\heilbrigt_workplace_backend_v01\\Services\\RandomKey.cs",
-              "RelativeDocumentMoniker": "heilbrigt_workplace_backend_v01\\Services\\RandomKey.cs",
-              "ToolTip": "F:\\_Projekte\\Heilbrigt\\heilbirgt_workplace_backend\\heilbrigt_workplace_backend_v01\\heilbrigt_workplace_backend_v01\\Services\\RandomKey.cs",
-              "RelativeToolTip": "heilbrigt_workplace_backend_v01\\Services\\RandomKey.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAANAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "F:\\_Projekte\\Heilbrigt\\heilbirgt_workplace_backend\\heilbrigt_workplace_backend_v01\\heilbrigt_workplace_backend_v01\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "heilbrigt_workplace_backend_v01\\Controllers\\UserController.cs",
+              "ToolTip": "F:\\_Projekte\\Heilbrigt\\heilbirgt_workplace_backend\\heilbrigt_workplace_backend_v01\\heilbrigt_workplace_backend_v01\\Controllers\\UserController.cs",
+              "RelativeToolTip": "heilbrigt_workplace_backend_v01\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAABlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T19:58:41.537Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserDto.cs",
-              "DocumentMoniker": "F:\\_Projekte\\Heilbrigt\\heilbirgt_workplace_backend\\heilbrigt_workplace_backend_v01\\heilbrigt_workplace_backend_v01\\Dtos\\UserSystem\\UserDto.cs",
-              "RelativeDocumentMoniker": "heilbrigt_workplace_backend_v01\\Dtos\\UserSystem\\UserDto.cs",
-              "ToolTip": "F:\\_Projekte\\Heilbrigt\\heilbirgt_workplace_backend\\heilbrigt_workplace_backend_v01\\heilbrigt_workplace_backend_v01\\Dtos\\UserSystem\\UserDto.cs",
-              "RelativeToolTip": "heilbrigt_workplace_backend_v01\\Dtos\\UserSystem\\UserDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T19:19:24.629Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "F:\\_Projekte\\Heilbrigt\\heilbirgt_workplace_backend\\heilbrigt_workplace_backend_v01\\heilbrigt_workplace_backend_v01\\Program.cs",
-              "RelativeDocumentMoniker": "heilbrigt_workplace_backend_v01\\Program.cs",
-              "ToolTip": "F:\\_Projekte\\Heilbrigt\\heilbirgt_workplace_backend\\heilbrigt_workplace_backend_v01\\heilbrigt_workplace_backend_v01\\Program.cs",
-              "RelativeToolTip": "heilbrigt_workplace_backend_v01\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T19:14:24.639Z",
+              "WhenOpened": "2024-11-03T08:15:45.988Z",
               "EditorCaption": ""
             },
             {
@@ -87,7 +49,7 @@
               "RelativeDocumentMoniker": "heilbrigt_workplace_backend_v01\\EntityFramework\\Manager\\IUserManager.cs",
               "ToolTip": "F:\\_Projekte\\Heilbrigt\\heilbirgt_workplace_backend\\heilbrigt_workplace_backend_v01\\heilbrigt_workplace_backend_v01\\EntityFramework\\Manager\\IUserManager.cs",
               "RelativeToolTip": "heilbrigt_workplace_backend_v01\\EntityFramework\\Manager\\IUserManager.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAADwvyEAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAEwAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-02T19:13:00.858Z",
               "EditorCaption": ""
@@ -103,25 +65,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-28T12:00:27.34Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 307,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SendMail.cs",
-              "DocumentMoniker": "F:\\_Projekte\\Heilbrigt\\heilbirgt_workplace_backend\\heilbrigt_workplace_backend_v01\\heilbrigt_workplace_backend_v01\\Services\\SendMail.cs",
-              "RelativeDocumentMoniker": "heilbrigt_workplace_backend_v01\\Services\\SendMail.cs",
-              "ToolTip": "F:\\_Projekte\\Heilbrigt\\heilbirgt_workplace_backend\\heilbrigt_workplace_backend_v01\\heilbrigt_workplace_backend_v01\\Services\\SendMail.cs",
-              "RelativeToolTip": "heilbrigt_workplace_backend_v01\\Services\\SendMail.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAwwCgAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T19:37:58.839Z",
               "EditorCaption": ""
             }
           ]
